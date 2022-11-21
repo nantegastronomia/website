@@ -1,5 +1,5 @@
 import * as React from "react"
-import { getCssText } from "./stitches.config"
+import { getCssText } from "./src/stitches.config"
 
 export const onRenderBody = ({ setHeadComponents }) => {
 	setHeadComponents([
