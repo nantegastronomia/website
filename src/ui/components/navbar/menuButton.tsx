@@ -2,7 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog"
 import { keyframes } from "@stitches/react"
 import React from "react"
 import { CgCloseO } from "react-icons/cg"
-import { styled } from "../../../stitches.config"
+import { styled } from "stitches.config"
 import MenuIcon from "./menuIcon"
 import { LinkMenu } from "./style"
 

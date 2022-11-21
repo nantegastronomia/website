@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import { styled } from "../stitches.config"
+import { styled } from "stitches.config"
 
 export const Button = styled("button", {
 	color: "white",

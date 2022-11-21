@@ -1,4 +1,4 @@
-import { styled } from "../../../stitches.config"
+import { styled } from "stitches.config"
 import { MyLink } from "../../buttons"
 import FacebookIcon from "./facebookIcon"
 import InstagramIcon from "./instagramIcon"
