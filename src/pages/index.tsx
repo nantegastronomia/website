@@ -1,19 +1,15 @@
 import type { HeadFC, PageProps } from "gatsby"
-import * as React from "react"
-import { styled } from "../../stitches.config"
+import React from "react"
+import Hero from "../ui/components/hero"
 import Layout from "../ui/components/layout"
 
 export const Head: HeadFC = () => <title>Teste</title>
-
-const Teste = styled("h1", {
-	color: "red",
-})
 
 const IndexPage: React.FC<PageProps> = () => {
 	return (
 		<>
 			<Layout>
-				<Teste>pagina</Teste>
+				<Hero />
 			</Layout>
 		</>
 	)
