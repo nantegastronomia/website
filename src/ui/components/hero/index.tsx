@@ -1,9 +1,9 @@
 import React from "react"
 import { styled } from "stitches.config"
 import { ButtonLink } from "ui/buttons"
-import { Heading } from "ui/typo"
+import { H1, H2 } from "ui/typo"
 
-import Bg from "images/hero.jpg"
+import Bg from "./hero.jpg"
 
 const Base = styled("div", {
 	width: "100%",
@@ -17,14 +17,13 @@ const Base = styled("div", {
 	backgroundSize: "cover",
 })
 
-const Container = styled("div", {
+const Container = styled("section", {
 	display: "flex",
 	width: "100%",
 	maxWidth: "$6",
 	margin: "0 auto",
-	zIndex: "2",
 })
-const BoxText = styled("section", {
+const BoxText = styled("div", {
 	display: "flex",
 	flexDirection: "column",
 	width: "100%",
@@ -39,18 +38,16 @@ export default function Hero() {
 		<Base>
 			<Container>
 				<BoxText>
-					<Heading size={1} color={"w"}>
+					<H1 as={"h2"} color={"w"} bold={"s"}>
 						CASAMENTOS,
 						<br /> 15 ANOS E <br />
 						FORMATURAS
-					</Heading>
-					<Heading as={"h2"} size={2} color={"w"} bold={"n"}>
+					</H1>
+					<H2 as={"h3"} color={"w"} bold={"n"}>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
 						suscipit beatae, iusto obcaecati sapiente dolorem quo veritatis.
-					</Heading>
-					<ButtonLink href={"/servicos"}>
-						<a>VEJA NOSSOS SERVIÇOS</a>
-					</ButtonLink>
+					</H2>
+					<ButtonLink to={"/servicos"}>VEJA NOSSOS SERVIÇOS</ButtonLink>
 				</BoxText>
 			</Container>
 		</Base>

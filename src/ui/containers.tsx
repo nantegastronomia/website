@@ -45,7 +45,9 @@ export const Box = styled("div", {
 	},
 })
 
-export const ContainerCenter = styled("div", {
+export const ContainerCenter = styled("section", {
 	maxWidth: "$6",
 	margin: "0 auto",
+	display: "flex",
+	width: "100%",
 })

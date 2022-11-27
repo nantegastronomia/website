@@ -36,11 +36,31 @@ export const SocialBox = styled("div", {
 })
 
 export const LinkMenu = styled(MyLink, {
-	paddingY: "$2",
-	borderBottomColor: "$yellow200",
+	color: "$black100",
+	fontWeight: "$2",
+	fontSize: "$1",
+	transition: "0.3s",
+	cursor: "pointer",
+	textDecoration: "none",
+	borderBottom: "3px solid",
+	borderBottomColor: "transparent",
+
+	padding: "$2",
 
 	"&:hover": {
-		borderBottom: "3px solid",
+		color: "$yellow200",
+		borderBottomColor: "$yellow200",
+	},
+
+	variants: {
+		color: {
+			y1: {
+				color: "$yellow100",
+			},
+			y2: {
+				color: "$yellow200",
+			},
+		},
 	},
 })
 

@@ -27,7 +27,7 @@ export const Button = styled("button", {
 	"@md": { alignSelf: "flex-start" },
 })
 
-export const ButtonLink = styled("a", {
+export const ButtonLink = styled(Link, {
 	color: "white",
 	backgroundColor: "$yellow200",
 	fontWeight: "$2",
@@ -39,6 +39,7 @@ export const ButtonLink = styled("a", {
 	transition: "0.2s",
 	alignSelf: "flex-start",
 	textDecoration: "none",
+	cursor: "pointer",
 
 	"&:hover": { backgroundColor: "$yellow100" },
 

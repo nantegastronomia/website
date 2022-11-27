@@ -15,6 +15,7 @@ export const {
 			ubuntu: "Ubuntu",
 		},
 		fontSizes: {
+			0: "0.9rem",
 			1: "1rem",
 			2: "1.5rem",
 			3: "2rem",
@@ -38,6 +39,7 @@ export const {
 			sm: "0.3629032075405121rem",
 			md: "0.5978260636329651rem",
 			lg: "0.75rem",
+			full: "100%",
 		},
 
 		space: {

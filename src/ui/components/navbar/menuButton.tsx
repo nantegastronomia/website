@@ -52,7 +52,7 @@ const Close = styled("div", {
 	top: 20,
 	right: 20,
 })
-const VerticalMenu = styled("div", {
+const VerticalMenu = styled("nav", {
 	display: "flex",
 	flexDirection: "column",
 	justifyContent: "center",
