@@ -1,37 +1,7 @@
 import React from "react"
-import { styled } from "stitches.config"
 import { ButtonLink } from "ui/buttons"
 import { H1, H2 } from "ui/typo"
-
-import Bg from "./hero.jpg"
-
-const Base = styled("div", {
-	width: "100%",
-	paddingX: "$6",
-	paddingY: "$8",
-	display: "flex",
-	alignItems: "center",
-	position: "relative",
-	backgroundImage: `url(${Bg})`,
-	backgroundRepeat: "no-repeat",
-	backgroundSize: "cover",
-})
-
-const Container = styled("section", {
-	display: "flex",
-	width: "100%",
-	maxWidth: "$6",
-	margin: "0 auto",
-})
-const BoxText = styled("div", {
-	display: "flex",
-	flexDirection: "column",
-	width: "100%",
-	gap: "$3",
-
-	"@xs": { width: "100%", textAlign: "center", justifyContent: "center" },
-	"@md": { width: "45%", textAlign: "left", justifyContent: "start" },
-})
+import { Base, BoxText, Container } from "./style"
 
 export default function Hero() {
 	return (

@@ -5,7 +5,7 @@ export const Container = styled(ContainerCenter, {
 	justifyContent: "space-between",
 	alignItems: "center",
 	gap: "$6",
-	paddingY: "$8",
+	paddingY: "8rem",
 	backgroundColor: "#FFFFFF",
 	flexDirection: "column",
 

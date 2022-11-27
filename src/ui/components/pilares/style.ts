@@ -4,7 +4,7 @@ import { ContainerCenter } from "ui/containers"
 
 export const Base = styled("div", {
 	paddingX: "$6",
-	paddingY: "$8",
+	paddingY: "8rem",
 	backgroundColor: "#FFF8EB",
 	backgroundImage: `url(${Bg})`,
 })
