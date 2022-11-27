@@ -14,16 +14,19 @@ export const Container = styled(ContainerCenter, {
 	paddingY: "$5",
 	justifyContent: "space-between",
 	alignItems: "center",
+
+	"@xs": { flexDirection: "column", gap: "$3" },
+	"@lg": { flexDirection: "row" },
 })
 
 export const TextFooter = styled("h2", {
-	fontSize: "$0",
 	fontWeight: "400",
 	color: "white",
+
+	"@xs": { fontSize: "0.8rem" },
+	"@md": { fontSize: "$0" },
 })
 export const LinkMenuFooter = styled("h3", {
-	fontSize: "$1",
-
 	"& a": {
 		transition: "0.5s",
 		textDecoration: "none",
@@ -33,4 +36,8 @@ export const LinkMenuFooter = styled("h3", {
 			color: "$yellow100",
 		},
 	},
+
+	"@xs": { fontSize: "0.5rem" },
+	"@sm": { fontSize: "0.7rem" },
+	"@lg": { fontSize: "$1" },
 })

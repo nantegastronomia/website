@@ -44,5 +44,4 @@ export const IconBox = styled("div", {
 	alignItems: "start",
 })
 
-export const BoxButton = styled("div", {})
-export const Icon = styled("div", {})
+export const BoxButton = styled("div", { width: "100%", textAlign: "center" })
