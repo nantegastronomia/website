@@ -6,10 +6,8 @@ const Footer = () => {
 	return (
 		<Base>
 			<Container as={"nav"}>
-				<TextFooter>
-					Nantê Gastronomia &copy;2022 - cnpj: XX.XXX.XXX/0001-AA
-				</TextFooter>
 				<BoxLink>
+					<h2 style={{ fontSize: 0 }}>Navegação</h2>
 					<LinkMenuFooter>
 						<Link to={"/"}>HOME</Link>
 					</LinkMenuFooter>
@@ -26,6 +24,9 @@ const Footer = () => {
 						<Link to={"/"}>CONTATO</Link>
 					</LinkMenuFooter>
 				</BoxLink>
+				<TextFooter>
+					Nantê Gastronomia &copy;2022 - cnpj: XX.XXX.XXX/0001-AA
+				</TextFooter>
 			</Container>
 		</Base>
 	)

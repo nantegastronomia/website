@@ -7,4 +7,7 @@ export const globalStyles = globalCss({
 		boxSizing: "border-box",
 		fontFamily: "$ubuntu",
 	},
+	a: {
+		textDecoration: "none",
+	},
 })

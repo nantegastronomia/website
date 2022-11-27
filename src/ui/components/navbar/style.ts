@@ -1,5 +1,4 @@
 import { styled } from "stitches.config"
-import { MyLink } from "../../buttons"
 import FacebookIcon from "./facebookIcon"
 import InstagramIcon from "./instagramIcon"
 
@@ -35,7 +34,7 @@ export const SocialBox = styled("div", {
 	"@lg": { gap: "$2" },
 })
 
-export const LinkMenu = styled(MyLink, {
+export const LinkMenu = styled("h3", {
 	color: "$black100",
 	fontWeight: "$2",
 	fontSize: "$1",
@@ -44,23 +43,11 @@ export const LinkMenu = styled(MyLink, {
 	textDecoration: "none",
 	borderBottom: "3px solid",
 	borderBottomColor: "transparent",
-
 	padding: "$2",
 
 	"&:hover": {
 		color: "$yellow200",
 		borderBottomColor: "$yellow200",
-	},
-
-	variants: {
-		color: {
-			y1: {
-				color: "$yellow100",
-			},
-			y2: {
-				color: "$yellow200",
-			},
-		},
 	},
 })
 

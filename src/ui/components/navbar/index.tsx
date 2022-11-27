@@ -26,10 +26,23 @@ export default function Navbar() {
 						</a>
 					</Link>
 					<BoxMenu>
-						<LinkMenu to={"/servicos"}>SERVIÇOS</LinkMenu>
-						<LinkMenu to={"/a-empresa"}>A EMPRESA</LinkMenu>
-						<LinkMenu to={"/galeria"}>GALERIA</LinkMenu>
-						<LinkMenu to={"/contato"}>CONTATO</LinkMenu>
+						<h2 style={{ fontSize: 0 }}>Navegação Principal</h2>
+
+						<Link to={"/servicos"}>
+							<LinkMenu>SERVIÇOS</LinkMenu>
+						</Link>
+
+						<Link to={"/a-empresa"}>
+							<LinkMenu>A EMPRESA</LinkMenu>
+						</Link>
+
+						<Link to={"/galeria"}>
+							<LinkMenu>GALERIA</LinkMenu>
+						</Link>
+
+						<Link to={"/contato"}>
+							<LinkMenu>CONTATO</LinkMenu>
+						</Link>
 					</BoxMenu>
 				</Box>
 

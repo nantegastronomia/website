@@ -19,11 +19,11 @@ export const Container = styled(ContainerCenter, {
 	"@lg": { flexDirection: "row" },
 })
 
-export const TextFooter = styled("h2", {
+export const TextFooter = styled("p", {
+	color: "darkgrey",
 	fontWeight: "400",
-	color: "white",
 
-	"@xs": { fontSize: "0.8rem" },
+	"@xs": { fontSize: "0.7rem" },
 	"@md": { fontSize: "$0" },
 })
 export const LinkMenuFooter = styled("h3", {
