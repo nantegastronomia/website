@@ -1,11 +1,8 @@
 import React from "react"
 import { H1 } from "ui/typo"
-import Justus from "./justus.jpg"
-import Musky from "./musky.jpg"
-import Neymar from "./neymar.jpg"
-import Xuxa from "./xuxa.jpg"
 
-import { Avatar, BoxCard, Card, Container, Job, Name, Testimony } from "./style"
+import { StaticImage } from "gatsby-plugin-image"
+import { BoxCard, Card, Container, Job, Name, Testimony } from "./style"
 
 const Clientes = () => {
 	return (
@@ -15,7 +12,11 @@ const Clientes = () => {
 			</H1>
 			<BoxCard>
 				<Card>
-					<Avatar src={Justus} alt='Cliente: Roberto Justus' />
+					<StaticImage
+						className='clientesImg'
+						src={"./justus.jpg"}
+						alt='Cliente: Roberto Justus'
+					/>
 
 					<Name>Roberto Justus</Name>
 					<Job>Publicitário</Job>
@@ -26,7 +27,11 @@ const Clientes = () => {
 					</Testimony>
 				</Card>
 				<Card>
-					<Avatar src={Neymar} alt='Cliente: Roberto Justus' />
+					<StaticImage
+						src={"./neymar.jpg"}
+						alt='Cliente: Roberto Justus'
+						className='clientesImg'
+					/>
 					<Name>Neymar Jr</Name>
 					<Job>Jogador de Futebol</Job>
 					<Testimony>
@@ -36,7 +41,11 @@ const Clientes = () => {
 					</Testimony>
 				</Card>
 				<Card>
-					<Avatar src={Musky} alt='Cliente: Elon Musky' />
+					<StaticImage
+						src={"./musky.jpg"}
+						alt='Cliente: Elon Musky'
+						className='clientesImg'
+					/>
 					<Name>Elon Musky</Name>
 					<Job>Empresário</Job>
 					<Testimony>
@@ -46,7 +55,11 @@ const Clientes = () => {
 					</Testimony>
 				</Card>
 				<Card>
-					<Avatar src={Xuxa} alt='Cliente: Xuxa' />
+					<StaticImage
+						src={"./xuxa.jpg"}
+						alt='Cliente: Xuxa'
+						className='clientesImg'
+					/>
 					<Name>Xuxa Meneguel</Name>
 					<Job>Apresentadora</Job>
 					<Testimony>
