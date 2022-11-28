@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import Bg from "images/bg-lotus.jpg"
 import { styled } from "stitches.config"
 import { ContainerCenter } from "ui/containers"
@@ -38,7 +39,7 @@ export const BoxImg = styled("div", {
 	"@2xl": { justifyContent: "end" },
 })
 
-export const ImgCheff = styled("img", {
+export const ImgCheff = styled(StaticImage, {
 	"@xs": { width: "250px" },
 	"@md": { width: "300px" },
 	"@2xl": { width: "400px" },

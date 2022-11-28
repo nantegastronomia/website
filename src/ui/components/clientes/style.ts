@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image"
 import { styled } from "stitches.config"
 import { ContainerCenter } from "ui/containers"
 
@@ -31,7 +32,7 @@ export const Card = styled("div", {
 	},
 	"@md": { maxWidth: "210px" },
 })
-export const Avatar = styled("img", {
+export const Avatar = styled(StaticImage, {
 	overflow: "hidden",
 	borderRadius: "$full",
 	border: "10px solid",

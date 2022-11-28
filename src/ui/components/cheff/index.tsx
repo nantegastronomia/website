@@ -1,7 +1,7 @@
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import { H1, H2 } from "ui/typo"
-import CheffImg from "./cheff.png"
-import { Base, BoxImg, BoxText, Container, ImgCheff } from "./style"
+import { Base, BoxImg, BoxText, Container } from "./style"
 
 const Cheff = () => {
 	return (
@@ -13,12 +13,16 @@ const Cheff = () => {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
 						suscipit beatae, iusto obcaecati sapiente dolorem quo veritatis.
 					</H2>
-					{/* <ButtonLink href={"/servicos"}>
-						<a>VEJA NOSSOS SERVIÇOS</a>
-					</ButtonLink> */}
 				</BoxText>
 				<BoxImg>
-					<ImgCheff src={CheffImg} alt={"Cheff Nantê"} />
+					<StaticImage
+						src='./cheff.png'
+						alt='cheff'
+						placeholder='blurred'
+						layout='constrained'
+						tracedSVGOptions={{ color: `#cd7713` }}
+						blurredOptions={{ width: 50 }}
+					/>
 				</BoxImg>
 			</Container>
 		</Base>

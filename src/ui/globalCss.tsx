@@ -10,4 +10,11 @@ export const globalStyles = globalCss({
 	a: {
 		textDecoration: "none",
 	},
+	".clientesImg": {
+		overflow: "hidden",
+		borderRadius: "$full",
+		border: "10px solid",
+		borderColor: "$yellow200",
+		width: "210px",
+	},
 })
