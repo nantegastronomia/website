@@ -4,8 +4,15 @@ import React from "react"
 import { H1, H2 } from "ui/typo"
 import Layout from "../../ui/components/layout"
 
+import {
+	Desktop,
+	Foto,
+	Mobile,
+	Servico,
+	Side,
+	Texto,
+} from "../../ui/components/servicos/style"
 import { Base, Container, SubTit, Titulo } from "../../ui/containers"
-import { Desktop, Foto, Mobile, Servico, Side, Texto } from "./style"
 
 export const Head: HeadFC = () => <title>Nantê Gastronomia</title>
 
