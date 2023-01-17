@@ -51,3 +51,19 @@ export const ContainerCenter = styled("section", {
 	display: "flex",
 	width: "100%",
 })
+
+export const Base = styled("div", {
+	paddingX: "$6",
+	paddingY: "$4",
+})
+
+export const Container = styled(ContainerCenter, {
+	gap: "$8",
+	flexDirection: "column",
+})
+
+export const Titulo = styled("div", {
+	width: "100%",
+})
+
+export const SubTit = styled(Titulo, { marginTop: "$2" })

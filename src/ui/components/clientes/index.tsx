@@ -17,7 +17,6 @@ const Clientes = () => {
 						src={"./justus.jpg"}
 						alt='Cliente: Roberto Justus'
 					/>
-
 					<Name>Roberto Justus</Name>
 					<Job>Publicitário</Job>
 					<Testimony>
