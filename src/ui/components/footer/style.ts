@@ -35,6 +35,8 @@ export const LinkMenuFooter = styled("h3", {
 		"&:hover": {
 			color: "$yellow100",
 		},
+
+		// "&:first-child": { marginLeft: 0 },
 	},
 
 	"@xs": { fontSize: "0.5rem" },

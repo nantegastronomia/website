@@ -3,7 +3,6 @@ import React from "react"
 import Cheff from "ui/components/cheff"
 import Clientes from "ui/components/clientes"
 import Pilares from "ui/components/pilares"
-import Hero from "../ui/components/hero"
 import Layout from "../ui/components/layout"
 
 export const Head: HeadFC = () => <title>Nantê Gastronomia</title>
@@ -11,7 +10,7 @@ export const Head: HeadFC = () => <title>Nantê Gastronomia</title>
 const IndexPage: React.FC<PageProps> = () => {
 	return (
 		<Layout>
-			<Hero />
+			{/* <Hero /> */}
 			<Cheff />
 			<Clientes />
 			<Pilares />

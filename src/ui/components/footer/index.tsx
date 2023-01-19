@@ -6,8 +6,8 @@ const Footer = () => {
 	return (
 		<Base>
 			<Container as={"nav"}>
+				<h2 style={{ fontSize: 0 }}>Navegação</h2>
 				<BoxLink>
-					<h2 style={{ fontSize: 0 }}>Navegação</h2>
 					<LinkMenuFooter>
 						<Link to={"/"}>HOME</Link>
 					</LinkMenuFooter>
