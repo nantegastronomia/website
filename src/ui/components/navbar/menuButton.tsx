@@ -1,5 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog"
 import { keyframes } from "@stitches/react"
+import { Link } from "gatsby"
 import React from "react"
 import { CgCloseO } from "react-icons/cg"
 import { styled } from "stitches.config"
@@ -75,23 +76,33 @@ export default function Menu() {
 				<Conteudo>
 					<VerticalMenu>
 						<Dialog.Close asChild>
-							<LinkMenu to={"/"}>HOME</LinkMenu>
+							<Link to={"/"}>
+								<LinkMenu>HOME</LinkMenu>
+							</Link>
 						</Dialog.Close>
 
 						<Dialog.Close asChild>
-							<LinkMenu to={"/servicos"}>SERVIÇOS</LinkMenu>
+							<Link to={"/servicos"}>
+								<LinkMenu>SERVIÇOS</LinkMenu>
+							</Link>
 						</Dialog.Close>
 
 						<Dialog.Close asChild>
-							<LinkMenu to={"/a-empresa"}>A EMPRESA</LinkMenu>
+							<Link to={"/a-empresa"}>
+								<LinkMenu>A EMPRESA</LinkMenu>
+							</Link>
 						</Dialog.Close>
 
 						<Dialog.Close asChild>
-							<LinkMenu to={"/galeria"}>GALERIA</LinkMenu>
+							<Link to={"/galeria"}>
+								<LinkMenu>GALERIA</LinkMenu>
+							</Link>
 						</Dialog.Close>
 
 						<Dialog.Close asChild>
-							<LinkMenu to={"/contato"}>CONTATO</LinkMenu>
+							<Link to={"/contato"}>
+								<LinkMenu>CONTATO</LinkMenu>
+							</Link>
 						</Dialog.Close>
 					</VerticalMenu>
 

@@ -12,16 +12,16 @@ const Footer = () => {
 						<Link to={"/"}>HOME</Link>
 					</LinkMenuFooter>
 					<LinkMenuFooter>
-						<Link to={"/"}>SERVIÇOS</Link>
+						<Link to={"/servicos"}>SERVIÇOS</Link>
 					</LinkMenuFooter>
 					<LinkMenuFooter>
-						<Link to={"/"}>A EMPRESA</Link>
+						<Link to={"/a-empresa"}>A EMPRESA</Link>
 					</LinkMenuFooter>
 					<LinkMenuFooter>
-						<Link to={"/"}>GALERIA</Link>
+						<Link to={"/galeria"}>GALERIA</Link>
 					</LinkMenuFooter>
 					<LinkMenuFooter>
-						<Link to={"/"}>CONTATO</Link>
+						<Link to={"/contato"}>CONTATO</Link>
 					</LinkMenuFooter>
 				</BoxLink>
 				<TextFooter>

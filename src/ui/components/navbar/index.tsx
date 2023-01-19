@@ -47,12 +47,16 @@ export default function Navbar() {
 				</Box>
 
 				<SocialBox>
-					<a href={"https://facebook.com"} target={"_blank"}>
+					<a
+						href={"https://www.facebook.com/profile.php?id=100089636586789"}
+						target={"_blank"}>
 						<a>
 							<Face />
 						</a>
 					</a>
-					<a href={"https://facebook.com"} target={"_blank"}>
+					<a
+						href={"https://www.instagram.com/nantegastronomia/"}
+						target={"_blank"}>
 						<a>
 							<Insta />
 						</a>
