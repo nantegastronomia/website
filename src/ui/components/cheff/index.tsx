@@ -8,10 +8,15 @@ const Cheff = () => {
 		<Base>
 			<Container>
 				<BoxText>
-					<H1 as={"h2"}>COZINHA SOFISTICADA, CHEFF RENOMADO E EFICIÊNCIA</H1>
+					<H1 as={"h2"}>
+						“Uma experiência inovadora onde temperos e sabores da cozinha de
+						vanguarda se misturam.”
+					</H1>
 					<H2 as={"h3"} bold={"n"}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						suscipit beatae, iusto obcaecati sapiente dolorem quo veritatis.
+						Procuramos na elaboração dos nossos cardápios estabelecer um resgate
+						afetivo com os alimentos, comida de verdade, ativando algumas de
+						nossas capacidades sensoriais: visão, olfato e paladar. Dessa forma,
+						estimulamos sensações boas e prazerosas.
 					</H2>
 				</BoxText>
 				<BoxImg>

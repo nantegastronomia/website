@@ -9,15 +9,15 @@ export default function Hero() {
 			<Container>
 				<BoxText>
 					<H1 as={"h2"} color={"w"} bold={"s"}>
-						CASAMENTOS,
-						<br /> 15 ANOS E <br />
-						FORMATURAS
+						FEIRAS, CONGRESSOS
+						<br /> CORPORATIVOS <br />E GRANDES PÚBLICOS
 					</H1>
 					<H2 as={"h3"} color={"w"} bold={"n"}>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-						suscipit beatae, iusto obcaecati sapiente dolorem quo veritatis.
+						Somos especialistas em atender grandes demandas com carinho,
+						sofisticação e sabor inigualável! Se o seu objetivo é impactar
+						positivamente seus convidados, é com a gente que você precisa falar.
 					</H2>
-					<ButtonLink to={"/servicos"}>VEJA NOSSOS SERVIÇOS</ButtonLink>
+					<ButtonLink to={"/servicos"}>CONHEÇA NOSSOS SERVIÇOS</ButtonLink>
 				</BoxText>
 			</Container>
 		</Base>

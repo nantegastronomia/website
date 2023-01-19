@@ -9,7 +9,7 @@ export default function Layout({ children }: any) {
 	globalStyles()
 	return (
 		<>
-			<h1 style={{ fontSize: 0 }}>Nente</h1>
+			<h1 style={{ fontSize: 0 }}>Nantê Gastronomia</h1>
 			<Navbar />
 			<main>{children}</main>
 			<Footer />
