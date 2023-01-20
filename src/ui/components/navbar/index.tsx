@@ -21,9 +21,7 @@ export default function Navbar() {
 
 				<Box>
 					<Link to={"/"}>
-						<a>
-							<LogoNante width={105} />
-						</a>
+						<LogoNante width={105} />
 					</Link>
 					<BoxMenu>
 						<h2 style={{ fontSize: 0 }}>Navegação Principal</h2>
@@ -40,9 +38,9 @@ export default function Navbar() {
 							<LinkMenu>GALERIA</LinkMenu>
 						</Link>
 
-						<Link to={"/contato"}>
+						<a href='https://wa.me/552123914422'>
 							<LinkMenu>CONTATO</LinkMenu>
-						</Link>
+						</a>
 					</BoxMenu>
 				</Box>
 
@@ -50,16 +48,12 @@ export default function Navbar() {
 					<a
 						href={"https://www.facebook.com/profile.php?id=100089636586789"}
 						target={"_blank"}>
-						<a>
-							<Face />
-						</a>
+						<Face />
 					</a>
 					<a
 						href={"https://www.instagram.com/nantegastronomia/"}
 						target={"_blank"}>
-						<a>
-							<Insta />
-						</a>
+						<Insta />
 					</a>
 				</SocialBox>
 			</Container>

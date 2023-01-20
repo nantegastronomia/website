@@ -66,4 +66,4 @@ export const Titulo = styled("div", {
 	width: "100%",
 })
 
-export const SubTit = styled(Titulo, { marginTop: "$2" })
+export const SubTit = styled(Titulo, { marginTop: "$2", lineHeight: "1.4rem" })

@@ -1,0 +1,10 @@
+img{
+    border-radius: 5px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.02);
+    filter: brightness(1.5);
+}

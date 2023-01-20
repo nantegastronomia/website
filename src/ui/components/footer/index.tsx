@@ -21,7 +21,7 @@ const Footer = () => {
 						<Link to={"/galeria"}>GALERIA</Link>
 					</LinkMenuFooter>
 					<LinkMenuFooter>
-						<Link to={"/contato"}>CONTATO</Link>
+						<a href='https://wa.me/552123914422'>CONTATO</a>
 					</LinkMenuFooter>
 				</BoxLink>
 				<TextFooter>
