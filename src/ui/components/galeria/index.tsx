@@ -20,7 +20,7 @@ const Galeria: any = () => {
 	}
 
 	return (
-		<div>
+		<div className='galeria'>
 			<Gallery photos={Fotos} margin={4} onClick={openLightbox} />
 			<ModalGateway>
 				{viewerIsOpen ? (
