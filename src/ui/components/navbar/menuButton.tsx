@@ -100,9 +100,9 @@ export default function Menu() {
 						</Dialog.Close>
 
 						<Dialog.Close asChild>
-							<Link to={"/contato"}>
+							<a href='https://wa.me/552123914422'>
 								<LinkMenu>CONTATO</LinkMenu>
-							</Link>
+							</a>
 						</Dialog.Close>
 					</VerticalMenu>
 
