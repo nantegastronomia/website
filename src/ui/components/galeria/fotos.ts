@@ -12,7 +12,7 @@ import foto08 from "./img/08.jpeg";
 import foto09 from "./img/09.jpeg";
 
 import video01 from "./video/01.mp4";
-type fotoProp = {
+export type fotoProp = {
   src: any;
   width: number;
   height: number;

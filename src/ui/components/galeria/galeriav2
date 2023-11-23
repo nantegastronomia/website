@@ -15,7 +15,6 @@ const Galeria: any = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  //@ts-ignore
   const openLightbox = useCallback((event: any, { Fotos, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
@@ -29,9 +28,7 @@ const Galeria: any = () => {
   return (
     <>
       <div className="galeria">
-        {/* @ts-ignore */}
         <Gallery photos={Fotos} margin={4} onClick={openLightbox} />
-        {/* @ts-ignore */}
         <ModalGateway>
           {viewerIsOpen ? (
             <Modal onClose={closeLightbox}>
