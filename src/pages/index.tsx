@@ -7,7 +7,10 @@ import Pilares from "ui/components/pilares";
 import ZapButton from "ui/components/zapbutton/ZapButton";
 import Layout from "../ui/components/layout";
 
-export const Head: HeadFC = () => <title>Nantê Gastronomia</title>;
+export const Head: HeadFC = () => <title>Nantê Gastronomia </title>;
+
+
+
 
 const IndexPage: React.FC<PageProps> = () => {
   return (

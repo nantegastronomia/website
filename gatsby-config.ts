@@ -24,6 +24,19 @@ const config: GatsbyConfig = {
 				root: path.join(__dirname, "./", "src", "ui", "ui/components"),
 			},
 		},
+		{
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+		  // Inclua a tag GTM no head da página
+        id: "GTM-WRPJ7VPV",
+
+        // Para desativar o GTM em ambientes de desenvolvimento
+        includeInDevelopment: true,
+
+        // Configurações adicionais para o dataLayer
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
 	],
